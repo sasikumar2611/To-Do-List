@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #b9b5ed;
+}
+p{
+    text-align: justify;
+}
+
+.header h1 {
+    background-color: rgb(111, 111, 217);
+    padding: 5px;
+    padding-left: 10px;
+
+}
+
+.box-container {
+    background-color: rgb(111, 111, 217);
+    width: 25%;
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px 40px 20px 35px;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+p{
+    overflow: hidden;
+}
+
+.container {
+    padding: 10px;
+    justify-content:space-around
+}
+
+.box-container button {
+    border: none;
+    background-color: rgb(54, 50, 116);
+    color: white;
+    border-radius: 10px;
+    width: 50px;
+    height: 30px;
+padding: 5px;
+    margin-top: 10px;
+}
+
+.popup-box {
+    background-color: #6f65fd;
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    left: 27%;
+    top: 25%;
+    z-index: 2;
+    display: none;
+}
+
+.popup-box input {
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black 1px;
+    
+}
+
+.popup-box textarea {
+    background: transparent;
+    border: none;
+    width: 100%;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: solid black 1px;
+}
+
+.popup-box input::placeholder {
+    color: black;
+}
+
+.popup-box textarea::placeholder {
+    
+    color: black;
+}
+
+.popup-box button {
+    border: none;
+    background-color: rgb(54, 50, 116);
+    color: white;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.popup-box input:focus {
+    outline: none;
+}
+
+.popup-box textarea:focus {
+    outline: none;
+}
+
+.popup-overlay {
+    backdrop-filter: blur(5px);
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: none;
+}
+
+.add-button {
+    background-color: rgb(86, 86, 195);
+    color: black;
+    border-radius: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 35px;
+    border: none;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+
+
+}
